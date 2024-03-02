@@ -1,0 +1,258 @@
+{
+  "id": "98eb1c6b-42c8-4331-b795-ceab003dab09",
+  "version": "2.0",
+  "name": "MicrosoftAssignment",
+  "url": "https://mib.gov.in",
+  "tests": [{
+    "id": "379eab22-def6-4263-b14c-56f3766e786e",
+    "name": "Test",
+    "commands": [{
+      "id": "ab96fd38-4ac6-4afe-8c67-536ee01a38dc",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fadb01d4-b654-431e-9547-99ed45800042",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1068x820",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8dd507b9-df57-403c-9036-9ac55f9307d4",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Documents",
+      "targets": [
+        ["linkText=Documents", "linkText"],
+        ["css=.open > .dropdown-toggle", "css:finder"],
+        ["xpath=(//a[contains(text(),'Documents')])[5]", "xpath:link"],
+        ["xpath=//ul[@id='mainmenunav']/li[9]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[31]", "xpath:href"],
+        ["xpath=//li[9]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "180f14ed-6c59-4909-a263-1ab6fa3e6132",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=E-Book/Handbook",
+      "targets": [
+        ["linkText=E-Book/Handbook", "linkText"],
+        ["css=.open:nth-child(3) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'E-Book/Handbook')]", "xpath:link"],
+        ["xpath=//div[@id='tb-megamenu-column-8']/div/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://mib.gov.in/ministry-e-book')]", "xpath:href"],
+        ["xpath=//li[9]/div/div/div/div/div/ul/li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'E-Book/Handbook')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e8e486e7-ed89-46bc-b3d4-028827f49e3d",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Download",
+      "targets": [
+        ["linkText=Download", "linkText"],
+        ["css=.view:nth-child(1) > .view-content .odd:nth-child(1) > .views-field:nth-child(3) > a:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(text(),'Download')]", "xpath:link"],
+        ["xpath=//div[@id='block-system-main']/div/div/div/div[2]/table/tbody/tr/td[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://mib.gov.in/sites/default/files/Statistical%20Handbook.pdf')]", "xpath:href"],
+        ["xpath=//td[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Download ')]", "xpath:innerText"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win7034",
+      "windowTimeout": 2000
+    }, {
+      "id": "e94cd43a-91d6-42a5-a83b-e0824f7bc39e",
+      "comment": "",
+      "command": "storeWindowHandle",
+      "target": "root",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4b78e9af-a0b0-43d9-908a-57a19cc7f650",
+      "comment": "",
+      "command": "storeWindowHandle",
+      "target": "handle=${win7034}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "52f59708-5bb0-40dd-9964-24fa4ea4197b",
+      "comment": "",
+      "command": "//close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c5e3f901-e96f-4ef7-b520-7a9efa9e4573",
+      "comment": "",
+      "command": "storeWindowHandle",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ded1d5e4-3148-49bb-b9ba-57a1a1a251cf",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Digital Media",
+      "targets": [
+        ["linkText=Digital Media", "linkText"],
+        ["css=.open > .dropdown-toggle", "css:finder"],
+        ["xpath=//a[contains(text(),'Digital Media')]", "xpath:link"],
+        ["xpath=//ul[@id='mainmenunav']/li[6]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[25]", "xpath:href"],
+        ["xpath=//nav/div/div/div/div/div/ul/li[6]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Digital Media')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ecfd9f37-888a-4438-8968-63e2d91ba632",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Documents",
+      "targets": [
+        ["linkText=Documents", "linkText"],
+        ["css=.open:nth-child(3) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Documents')])[4]", "xpath:link"],
+        ["xpath=//div[@id='tb-megamenu-column-5']/div/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/digital-media-documents')]", "xpath:href"],
+        ["xpath=//li[6]/div/div/div/div/div/ul/li[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cc2d978b-acbd-4eff-848c-8f79e1fe4127",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Download (36.24 KB)",
+      "targets": [
+        ["linkText=Download (36.24 KB)", "linkText"],
+        ["css=.views-row-first > .views-field-field-attached > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Download (36.24 KB)')]", "xpath:link"],
+        ["xpath=//div[@id='block-system-main']/div/div/div/div[2]/table/tbody/tr/td[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://mib.gov.in/sites/default/files/List%20of%20OTT%20Platforms_0.pdf')]", "xpath:href"],
+        ["xpath=//td[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Download (36.24 KB) ')]", "xpath:innerText"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win5047",
+      "windowTimeout": 2000
+    }, {
+      "id": "f0af07d0-6bb3-4a4f-a9d2-9c839b84930a",
+      "comment": "",
+      "command": "storeWindowHandle",
+      "target": "handle=${win5047}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b4979c75-3468-4744-bb03-7bae209146b9",
+      "comment": "",
+      "command": "//close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "53cf40a6-f587-40ac-b0d2-e343a575bf31",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c02af7a8-9645-4b0d-9839-862cb830d85b",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Films",
+      "targets": [
+        ["linkText=Films", "linkText"],
+        ["css=.open > .dropdown-toggle", "css:finder"],
+        ["xpath=//a[contains(text(),'Films')]", "xpath:link"],
+        ["xpath=//ul[@id='mainmenunav']/li[5]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[22]", "xpath:href"],
+        ["xpath=//nav/div/div/div/div/div/ul/li[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Films')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "da8ef123-fa61-43d7-940b-29e012d9f77e",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Documents",
+      "targets": [
+        ["linkText=Documents", "linkText"],
+        ["css=.open:nth-child(3) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Documents')])[3]", "xpath:link"],
+        ["xpath=//div[@id='tb-megamenu-column-4']/div/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/films/films-documents')]", "xpath:href"],
+        ["xpath=//li[5]/div/div/div/div/div/ul/li[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f5e060ae-c9aa-47de-b348-729cb1a9eb14",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Download (1.41 MB)",
+      "targets": [
+        ["linkText=Download (1.41 MB)", "linkText"],
+        ["css=.views-row-first > .views-field-field-attached > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Download (1.41 MB)')]", "xpath:link"],
+        ["xpath=//div[@id='block-system-main']/div/div/div/div[2]/table/tbody/tr/td[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://mib.gov.in/sites/default/files/Report%20on%20Rationalization%20of%20Awards%20Conferred%20by%20the%20Ministry%20of%20Information%20%26%20Broadcasting.pdf')]", "xpath:href"],
+        ["xpath=//td[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Download (1.41 MB) ')]", "xpath:innerText"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win1706",
+      "windowTimeout": 2000
+    }, {
+      "id": "7043da17-51ed-4176-8457-20773e911a3b",
+      "comment": "",
+      "command": "storeWindowHandle",
+      "target": "handle=${win1706}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "54e2325c-ba6a-4f5b-8f3f-25fecfdc9c91",
+      "comment": "",
+      "command": "//close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4d58673f-de39-466a-bf3e-d29ca522014d",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "627def86-6267-4d97-af46-cd52e76ade3d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.national_emblem",
+      "targets": [
+        ["css=.national_emblem", "css:finder"],
+        ["xpath=//img[@alt='national emblem']", "xpath:img"],
+        ["xpath=//a[@id='logo']/img", "xpath:idRelative"],
+        ["xpath=//h1/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "6d791783-3e85-455b-8c0a-392c8ab3c891",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["379eab22-def6-4263-b14c-56f3766e786e"]
+  }],
+  "urls": ["https://mib.gov.in/"],
+  "plugins": []
+}
