@@ -1,0 +1,303 @@
+{
+  "id": "be8003ab-7255-4dd9-a9b9-e41c96b6f724",
+  "version": "2.0",
+  "name": "MicrosoftAssignment",
+  "url": "https://mib.gov.in",
+  "tests": [{
+    "id": "6d8f97c5-64da-4e13-940d-3dacb8cf1b56",
+    "name": "Test 1",
+    "commands": [{
+      "id": "eef43246-a35a-4690-9836-fc8a334b40cb",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "893ab338-551f-4aed-8b0f-416ceec77a70",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1068x820",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "75eddfb1-e169-4a65-8759-f2dfb5d6b286",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Documents",
+      "targets": [
+        ["linkText=Documents", "linkText"],
+        ["css=.open > .dropdown-toggle", "css:finder"],
+        ["xpath=(//a[contains(text(),'Documents')])[5]", "xpath:link"],
+        ["xpath=//ul[@id='mainmenunav']/li[9]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[34]", "xpath:href"],
+        ["xpath=//li[9]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "095bf2e4-85e1-48ff-8791-0a23b6668c5e",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=E-Book/Handbook",
+      "targets": [
+        ["linkText=E-Book/Handbook", "linkText"],
+        ["css=.animating > a", "css:finder"],
+        ["xpath=//a[contains(text(),'E-Book/Handbook')]", "xpath:link"],
+        ["xpath=//div[@id='tb-megamenu-column-8']/div/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://mib.gov.in/ministry-e-book')]", "xpath:href"],
+        ["xpath=//li[9]/div/div/div/div/div/ul/li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'E-Book/Handbook')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f76e570e-0e2b-4d33-83d8-fa9a0c0a625c",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Download",
+      "targets": [
+        ["linkText=Download", "linkText"],
+        ["css=.view:nth-child(1) > .view-content .odd:nth-child(1) > .views-field:nth-child(3) > a:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(text(),'Download')]", "xpath:link"],
+        ["xpath=//div[@id='block-system-main']/div/div/div/div[2]/table/tbody/tr/td[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://mib.gov.in/sites/default/files/Statistical%20Handbook.pdf')]", "xpath:href"],
+        ["xpath=//td[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Download ')]", "xpath:innerText"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win1681",
+      "windowTimeout": 2000
+    }, {
+      "id": "ba73fdde-6cb3-4fc1-91b2-bc3245646719",
+      "comment": "",
+      "command": "storeWindowHandle",
+      "target": "root",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f35a7f22-fcf6-4ff7-85ad-b77a2f401122",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win1681}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "37252d18-7eb4-4246-8d3b-e15e1a364cef",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5c12165f-8f0a-4b96-b129-911dd8b71cb8",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fdba1e7f-7ab9-40b8-bd62-60b6383f661a",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Films",
+      "targets": [
+        ["linkText=Films", "linkText"],
+        ["css=.open > .dropdown-toggle", "css:finder"],
+        ["xpath=//a[contains(text(),'Films')]", "xpath:link"],
+        ["xpath=//ul[@id='mainmenunav']/li[5]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[22]", "xpath:href"],
+        ["xpath=//nav/div/div/div/div/div/ul/li[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Films')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3d355aee-67d5-424e-af88-121e06f1d214",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Guidelines and Policies",
+      "targets": [
+        ["linkText=Guidelines and Policies", "linkText"],
+        ["css=.open:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Guidelines and Policies')]", "xpath:link"],
+        ["xpath=//div[@id='tb-megamenu-column-4']/div/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/film/films-codes-guidelines-and-policies')]", "xpath:href"],
+        ["xpath=//li[5]/div/div/div/div/div/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Guidelines and Policies')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ab207926-ff08-4279-b6ae-e20ca9141780",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Download (5.78 MB)",
+      "targets": [
+        ["linkText=Download (5.78 MB)", "linkText"],
+        ["css=.views-row-first .first > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Download (5.78 MB)')]", "xpath:link"],
+        ["xpath=//div[@id='block-system-main']/div/div/div/div/div/div/div/div/div[2]/div[2]/table/tbody/tr/td[3]/div/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://mib.gov.in/sites/default/files/Australia.pdf')]", "xpath:href"],
+        ["xpath=//td[3]/div/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Download (5.78 MB) ')]", "xpath:innerText"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win1829",
+      "windowTimeout": 2000
+    }, {
+      "id": "8d3d4bdc-799d-4ba4-8484-4aba1f295d43",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win1829}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bd32306a-e20e-4da4-8dd3-40b02afe58c3",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d0cc3f4f-1b46-4066-9fe3-4d633059b4b4",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0bc7a497-ec2c-4861-b2ed-4ae1c545b846",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Digital Media",
+      "targets": [
+        ["linkText=Digital Media", "linkText"],
+        ["css=.open > .dropdown-toggle", "css:finder"],
+        ["xpath=//a[contains(text(),'Digital Media')]", "xpath:link"],
+        ["xpath=//ul[@id='mainmenunav']/li[6]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[25]", "xpath:href"],
+        ["xpath=//nav/div/div/div/div/div/ul/li[6]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Digital Media')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3ba7446c-7635-4ab8-8d53-116bbd0c27dd",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Guidelines and Policies",
+      "targets": [
+        ["linkText=Guidelines and Policies", "linkText"],
+        ["css=.open:nth-child(2) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Guidelines and Policies')])[2]", "xpath:link"],
+        ["xpath=//div[@id='tb-megamenu-column-5']/div/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/digital-media-guidelines-and-policies')]", "xpath:href"],
+        ["xpath=//li[6]/div/div/div/div/div/ul/li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a41be36f-cac5-48e6-a411-736080604e50",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Download (1.59 MB)",
+      "targets": [
+        ["linkText=Download (1.59 MB)", "linkText"],
+        ["css=.views-row-first > .views-field-field-attached > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Download (1.59 MB)')]", "xpath:link"],
+        ["xpath=//div[@id='block-system-main']/div/div/div/div[2]/table/tbody/tr/td[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://mib.gov.in/sites/default/files/IT%20%28Intermediary%20Guidelines%20and%20Digital%20Media%20Ethics%20Code%29%20Rules%2C%202021%20Hindi.pdf')]", "xpath:href"],
+        ["xpath=//td[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Download (1.59 MB) ')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c0bc0dec-5792-4583-b455-2ee5b3c95964",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Download (1.59 MB)",
+      "targets": [
+        ["linkText=Download (1.59 MB)", "linkText"],
+        ["css=.views-row-first > .views-field-field-attached > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Download (1.59 MB)')]", "xpath:link"],
+        ["xpath=//div[@id='block-system-main']/div/div/div/div[2]/table/tbody/tr/td[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://mib.gov.in/sites/default/files/IT%20%28Intermediary%20Guidelines%20and%20Digital%20Media%20Ethics%20Code%29%20Rules%2C%202021%20Hindi.pdf')]", "xpath:href"],
+        ["xpath=//td[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Download (1.59 MB) ')]", "xpath:innerText"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win2570",
+      "windowTimeout": 2000
+    }, {
+      "id": "deec7fac-57bd-49a3-8d0d-9daa98903a6b",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win2570}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8a095d62-ed59-4bcc-9736-6906529ef365",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "12d39418-46fc-4e7b-ad97-e94993813e58",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=Download (1.59 MB)",
+      "targets": [
+        ["linkText=Download (1.59 MB)", "linkText"],
+        ["css=.views-row-first > .views-field-field-attached > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Download (1.59 MB)')]", "xpath:link"],
+        ["xpath=//div[@id='block-system-main']/div/div/div/div[2]/table/tbody/tr/td[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://mib.gov.in/sites/default/files/IT%20%28Intermediary%20Guidelines%20and%20Digital%20Media%20Ethics%20Code%29%20Rules%2C%202021%20Hindi.pdf')]", "xpath:href"],
+        ["xpath=//td[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Download (1.59 MB) ')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "22284ae2-9e2f-4298-8c25-5d4dd34ec4d3",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win2570}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7e962b53-d8e2-48d9-881d-78ad6ea1c7ef",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0d128a4d-fdd1-4cc9-b48d-949afc4cc245",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cfbbb5ae-fa96-4c36-a5af-6f768898fe32",
+      "comment": "",
+      "command": "click",
+      "target": "css=.national_emblem",
+      "targets": [
+        ["css=.national_emblem", "css:finder"],
+        ["xpath=//img[@alt='national emblem']", "xpath:img"],
+        ["xpath=//a[@id='logo']/img", "xpath:idRelative"],
+        ["xpath=//h1/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "be8cdcc8-fa74-4cca-8618-a4af58ff9640",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": true,
+    "timeout": 300,
+    "tests": ["6d8f97c5-64da-4e13-940d-3dacb8cf1b56"]
+  }],
+  "urls": ["https://mib.gov.in/"],
+  "plugins": []
+}
