@@ -6,6 +6,7 @@
   "tests": [{
     "id": "379eab22-def6-4263-b14c-56f3766e786e",
     "name": "Test",
+    "timeout": 90000,
     "commands": [{
       "id": "ab96fd38-4ac6-4afe-8c67-536ee01a38dc",
       "comment": "",
